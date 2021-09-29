@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<form action="" method="post">
+
+    <div class="form-group">
+        <label for="program-group-name">Program/Group Name:</label>
+        <input type="text" class="form-control" id="program-group-name" placeholder="Program/Group Name">
+    </div>
+
+    <div class="form-group">
+        <label for="program-leaders">Program Leader(s):</label>
+        <input type="text" class="form-control" id="program-leaders" placeholder="Program Leader(s)">
+    </div>
+
+    <div class="form-group">
+        <label for="season-year">Season/Year:</label>
+        <input type="text" class="form-control" id="season-year" placeholder="Season/Year">
+    </div>
+
+    <label for="date-form-group">Date:</label>
+    <div class="form-group" id="date-form-group">
+        <label for="incident-date-month">Month:</label>
+        <input type="text" class="form-control" id="incident-date-month" placeholder="Month">
+
+        <label for="incident-date-day">Day::</label>
+        <input type="text" class="form-control" id="incident-date-day" placeholder="Day">
+
+        <label for="incident-date-year">Year:</label>
+        <input type="text" class="form-control" id="incident-date-year" placeholder="Year">
+    </div>
+
+    <label for="incident-time-form-group">Time:</label>
+    <div class="form-group" id="incident-time-form-group">
+        <label for="incident-time-hour">Hour:</label>
+        <input type="text" class="form-control" id="incident-time-hour" placeholder="Hour">
+
+        <label for="incident-time-minute">Minute:</label>
+        <input type="text" class="form-control" id="incident-time-minute" placeholder="Minute">
+
+        <label for="incident-time-am-pm">AM/PM:</label>
+        <input type="text" class="form-control" id="incident-time-am-pm" placeholder="AM or PM">
+    </div>
+
+    <label for="name-of-injured">Name of Injured:</label>
+    <div class="form-group" id="name-of-injured">
+        <label for="name-of-injured-firstname">First Name:</label>
+        <input type="text" class="form-control" id="name-of-injured-firstname" placeholder="First Name">
+
+        <label for="name-of-injured-middlename">Middle Name:</label>
+        <input type="text" class="form-control" id="name-of-injured-middlename" placeholder="Middle Name">
+
+        <label for="name-of-injured-lastname">Last Name:</label>
+        <input type="text" class="form-control" id="name-of-injured-lastname" placeholder="Last Name">
+    </div>
+
+    <label for="injury-location">Injury Location:</label>
+    <div class="form-group" id="injury-location">
+        <label for="injury-location-entry">Location:</label>
+        <input type="text" class="form-control" id="injury-location-entry" placeholder="Location">
+    </div>
+
+    <label for="injury-treatment">Injury Treatment:</label>
+    <div class="form-group" id="injury-treatment">
+        <label for="injury-treatment-description" hidden="true">Description:</label>
+        <textarea name="injury-treatment-description" id="injury-treatment-description" cols="30" rows="10"></textarea>
+    </div>
+
+    <label for="injury-background-info">How Injury Occurred:</label>
+    <div class="form-group" id="injury-background-info">
+        <label for="injury-background-info-description" hidden="true">Description:</label>
+        <textarea name="injury-background-info-description" id="injury-background-info-description" cols="30" rows="10"></textarea>
+    </div>
+
+    <label for="facility-location">Facility/Location:</label>
+    <div class="form-group" id="facility-location">
+        <label for="facility-location-location">Location:</label>
+        <input type="text" id="facility-location-location" placeholder="Location">
+        <label for="facility-location-facility">Facility:</label>
+        <input type="text" id="facility-location-facility" placeholder="Facility">
+    </div>
+
+    <label for="reporting-staff-member">Full Name of Staff Who Notified Guardian:</label>
+    <div class="form-group" id="reporting-staff-member">
+        <label for="reporting-staff-member-firstname">First Name:</label>
+        <input type="text" id="reporting-staff-member-firstname" placeholder="First Name">
+        <label for="reporting-staff-member-middlename">Middle Name:</label>
+        <input type="text" id="reporting-staff-member-middlename" placeholder="Middle Name">
+        <label for="reporting-staff-member-lastname">Last Name:</label>
+        <input type="text" id="reporting-staff-member-lastname" placeholder="Last Name">
+    </div>
+
+</form>
+</body>
+</html>
