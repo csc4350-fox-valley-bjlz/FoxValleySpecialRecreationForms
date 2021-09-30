@@ -3,7 +3,7 @@ Incident Report Forms for Fox Valley Special Recreation
 
 # Getting Started
 ```shell
-$ git clone https://github.com/bri123an/FoxValleySpecialRecreationForms.git
+$ git clone https://github.com/csc4350-fox-valley-bjlz/FoxValleySpecialRecreationForms.git
 ```
 Run this command from the directory that you would like to clone this repository to. Alternatively you could specify this repository in the new project prompt in Webstorm.
 
